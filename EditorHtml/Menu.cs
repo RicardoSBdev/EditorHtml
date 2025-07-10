@@ -25,12 +25,6 @@ namespace EditorHtml
         public static void DrawScreen()
         {
             DrawHorizontalLine();
-            // Console.Write("+");
-            // for (int i = 0; i <= 30; i++)
-            //     Console.Write("-");
-
-            // Console.Write("+");
-            // Console.Write("\n");
 
             for (int lines = 0; lines <= 10; lines++)
             {
@@ -43,13 +37,6 @@ namespace EditorHtml
             }
 
             DrawHorizontalLine();
-
-            // Console.Write("+");
-            // for (int i = 0; i <= 30; i++)
-            //     Console.Write("-");
-
-            // Console.Write("+");
-            // Console.Write("\n");
         }
     }
 }
