@@ -12,3 +12,4 @@ D:\dev\EditorHtmlApp\EditorHtml\obj\Debug\net8.0\refint\EditorHtml.dll
 D:\dev\EditorHtmlApp\EditorHtml\obj\Debug\net8.0\EditorHtml.pdb
 D:\dev\EditorHtmlApp\EditorHtml\obj\Debug\net8.0\EditorHtml.genruntimeconfig.cache
 D:\dev\EditorHtmlApp\EditorHtml\obj\Debug\net8.0\ref\EditorHtml.dll
+D:\dev\EditorHtmlApp\EditorHtml\obj\Debug\net8.0\EditorHtml.sourcelink.json
