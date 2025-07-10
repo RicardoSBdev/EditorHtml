@@ -12,7 +12,7 @@ namespace EditorHtml
             DrawScreen();
         }
 
-        public static void DrawScreen()
+        public static void DrawHorizontalLine()
         {
             Console.Write("+");
             for (int i = 0; i <= 30; i++)
@@ -20,6 +20,17 @@ namespace EditorHtml
 
             Console.Write("+");
             Console.Write("\n");
+        }
+
+        public static void DrawScreen()
+        {
+            DrawHorizontalLine();
+            // Console.Write("+");
+            // for (int i = 0; i <= 30; i++)
+            //     Console.Write("-");
+
+            // Console.Write("+");
+            // Console.Write("\n");
 
             for (int lines = 0; lines <= 10; lines++)
             {
@@ -31,12 +42,14 @@ namespace EditorHtml
                 Console.Write("\n");
             }
 
-            Console.Write("+");
-            for (int i = 0; i <= 30; i++)
-                Console.Write("-");
+            DrawHorizontalLine();
 
-            Console.Write("+");
-            Console.Write("\n");
+            // Console.Write("+");
+            // for (int i = 0; i <= 30; i++)
+            //     Console.Write("-");
+
+            // Console.Write("+");
+            // Console.Write("\n");
         }
     }
 }
