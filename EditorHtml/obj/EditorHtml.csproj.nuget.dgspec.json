@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\EditorHtmlApp\\EditorHtml\\EditorHtml.csproj": {}
+    "D:\\dev\\EditorHtml\\EditorHtml\\EditorHtml.csproj": {}
   },
   "projects": {
-    "D:\\dev\\EditorHtmlApp\\EditorHtml\\EditorHtml.csproj": {
+    "D:\\dev\\EditorHtml\\EditorHtml\\EditorHtml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\EditorHtmlApp\\EditorHtml\\EditorHtml.csproj",
+        "projectUniqueName": "D:\\dev\\EditorHtml\\EditorHtml\\EditorHtml.csproj",
         "projectName": "EditorHtml",
-        "projectPath": "D:\\dev\\EditorHtmlApp\\EditorHtml\\EditorHtml.csproj",
+        "projectPath": "D:\\dev\\EditorHtml\\EditorHtml\\EditorHtml.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\EditorHtmlApp\\EditorHtml\\obj\\",
+        "outputPath": "D:\\dev\\EditorHtml\\EditorHtml\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
